@@ -1,0 +1,184 @@
+{
+    "status": "success",
+    "message": "OK",
+    "data": {
+        "locations": [
+            {
+                "id": 1,
+                "name": "Tema",
+                "state": "Greater Accra Region",
+                "country": "Ghana",
+                "country_code": "GH",
+                "locode": null,
+                "lat": 5.6698,
+                "lng": -0.01657
+            },
+            {
+                "id": 2,
+                "name": "Jebel Ali",
+                "state": "Dubai",
+                "country": "United Arab Emirates",
+                "country_code": "AE",
+                "locode": "AEJEA",
+                "lat": 25.00255,
+                "lng": 55.10811
+            },
+            {
+                "id": 3,
+                "name": "Ras Al Khaimah City",
+                "state": "Ra's al Khaymah",
+                "country": "United Arab Emirates",
+                "country_code": "AE",
+                "locode": "AERKT",
+                "lat": 25.78953,
+                "lng": 55.9432
+            }
+        ],
+        "route": {
+            "prepol": {
+                "location": 3,
+                "date": "2021-04-09 15:36:00",
+                "actual": true
+            },
+            "pol": {
+                "location": 3,
+                "date": "2021-04-12 02:53:00",
+                "actual": true
+            },
+            "pod": {
+                "location": 1,
+                "date": "2021-06-01 15:35:00",
+                "actual": true
+            },
+            "postpod": {
+                "location": 1,
+                "date": "2021-06-04 16:34:00",
+                "actual": true
+            }
+        },
+        "vessels": [
+            {
+                "id": 1,
+                "name": "DUBAI VENTURE",
+                "imo": 9202259,
+                "call_sign": "5BUV4",
+                "mmsi": 212851000,
+                "flag": "CY"
+            },
+            {
+                "id": 2,
+                "name": "ALS FLORA",
+                "imo": 9389394,
+                "call_sign": "9V5675",
+                "mmsi": 563035400,
+                "flag": "SG"
+            }
+        ],
+        "container": {
+            "number": "APZU3924368",
+            "iso_code": "20V0",
+            "events": [
+                {
+                    "location": 3,
+                    "description": "Empty to shipper",
+                    "status": "CEP",
+                    "date": "2021-04-09 15:36:00",
+                    "actual": true,
+                    "type": "land",
+                    "vessel": null,
+                    "voyage": null
+                },
+                {
+                    "location": 3,
+                    "description": "Ready to be loaded",
+                    "status": "CGI",
+                    "date": "2021-04-12 02:53:00",
+                    "actual": true,
+                    "type": "land",
+                    "vessel": 1,
+                    "voyage": "156A8R"
+                },
+                {
+                    "location": 3,
+                    "description": "Loaded on board",
+                    "status": "CLL",
+                    "date": "2021-04-15 06:51:00",
+                    "actual": true,
+                    "type": "sea",
+                    "vessel": 1,
+                    "voyage": "157A8R"
+                },
+                {
+                    "location": 2,
+                    "description": "Discharged in transhipment",
+                    "status": "CDT",
+                    "date": "2021-04-16 22:57:00",
+                    "actual": true,
+                    "type": "sea",
+                    "vessel": 1,
+                    "voyage": "158A8R"
+                },
+                {
+                    "location": 2,
+                    "description": "Loaded on board",
+                    "status": "CLT",
+                    "date": "2021-04-29 10:29:00",
+                    "actual": true,
+                    "type": "sea",
+                    "vessel": 2,
+                    "voyage": "0MSA1W1MA"
+                },
+                {
+                    "location": 1,
+                    "description": "Discharged",
+                    "status": "CDD",
+                    "date": "2021-06-01 15:35:00",
+                    "actual": true,
+                    "type": "sea",
+                    "vessel": 2,
+                    "voyage": "0MSA2E1MA"
+                },
+                {
+                    "location": 1,
+                    "description": "Container in transit for import",
+                    "status": "LTS",
+                    "date": "2021-06-01 21:47:00",
+                    "actual": true,
+                    "type": "land",
+                    "vessel": 2,
+                    "voyage": "0MSA2E1MA"
+                },
+                {
+                    "location": 1,
+                    "description": "Received for import transfer",
+                    "status": "LTS",
+                    "date": "2021-06-01 23:55:00",
+                    "actual": true,
+                    "type": "land",
+                    "vessel": null,
+                    "voyage": null
+                },
+                {
+                    "location": 1,
+                    "description": "Import Full Quay Unstuffing",
+                    "status": "UNK",
+                    "date": "2021-06-04 12:30:00",
+                    "actual": true,
+                    "type": "land",
+                    "vessel": null,
+                    "voyage": null
+                },
+                {
+                    "location": 1,
+                    "description": "Empty in depot",
+                    "status": "CER",
+                    "date": "2021-06-04 16:34:00",
+                    "actual": true,
+                    "type": "land",
+                    "vessel": null,
+                    "voyage": null
+                }
+            ]
+        }
+    }
+}

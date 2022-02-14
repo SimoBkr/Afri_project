@@ -1,0 +1,33 @@
+searates:
+  # Searates API Key
+  key: "MB9D-0OFI-QLEH-67JY-CGKZ"
+
+  # Distance & Time API V2
+  distanceandtime:
+    api: "https://sirius.searates.com/api/distanceandtime"
+
+  # Container Tracking API
+  tracking:
+    api: "https://tracking.searates.com"
+    bill-booking: "/reference"
+    containers: "/container"
+    routes: "/route"
+    countries: "/countries"
+
+  # Schedules API
+  schedules:
+    api: "https://sirius.searates.com/schedule"
+
+  # Logistics Explorer API v2
+  logistics:
+    api: "https://www.searates.com/graphql_rates"
+    token-id: "3072"
+    token-api: "https://www.searates.com/auth/platform-token?id=${searates.logistics.token-id}"
+    token-logistics: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9maWxlIjpudWxsLCJwbGF0Zm9ybSI6MzA3MiwibmFtZSI6IiIsImlzcyI6bnVsbCwiaWF0IjoxNjI4MjAwNzIyLCJleHAiOjE2Mjg2MzI3MjIsInRva2VuIjpudWxsfQ.0NMCHv9c6aOnDLHnWWzRaoGH5vrWCFY7Lh7k5tuWaGw"
+  ports-map: "https://www.searates.com/maritime/ports-map/"
+
+  google-geocode: "https://www.searates.com/search/google-geocode/"
+
+  google-query: "https://maps.googleapis.com/maps/api/place/textsearch/"
+
+  # https://tracking.searates.com/info/sealines

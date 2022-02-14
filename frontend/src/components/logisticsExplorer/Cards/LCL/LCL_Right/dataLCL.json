@@ -1,0 +1,136 @@
+
+{
+    "data": {
+      "shipment": [
+        {
+          "shipmentId": "SR-107741",
+          "transportationMode": "ocean",
+          "currency": "USD",
+          "cityFrom": {
+            "id": 76100,
+            "name": "Eiermarkt, 2000 Antwerpen, Belgium",
+            "code": "ChIJGSpmC_f2w0cRYLob3S0Mrkc",
+            "countryCode": "BE",
+            "lat": 51.2195874,
+            "lng": 4.4023677
+          },
+          "cityTo": {
+            "id": 76101,
+            "name": "Anson Rd, Singapore",
+            "code": "ChIJC3sTMmsZ2jERLNqhqrZ2BBs",
+            "countryCode": "SG",
+            "lat": 1.2734021,
+            "lng": 103.8445106
+          },
+          "portFrom": {
+            "id": 518,
+            "name": "Antwerpen",
+            "code": "BEANR",
+            "countryCode": "BE",
+            "lat": 51.202366263933435,
+            "lng": 4.382896105017217
+          },
+          "portTo": {
+            "id": 12117,
+            "name": "Singapore",
+            "code": "SGSIN",
+            "countryCode": "SG",
+            "lat": 1.2392074109743487,
+            "lng": 103.83246063045297
+          },
+          "oceanFreight": {
+            "shippingLine": null,
+            "logo": "https:\/\/www.searates.com\/design\/images\/freight\/sealine\/0.jpg",
+            "price": 1300,
+            "distance": "15216.75 km",
+            "transitTime": "31 days",
+            "portFeesFrom": [
+              {
+                "abbr": "B\/L",
+                "title": "Bill of lading fee",
+                "text": "Bill of lading fee",
+                "price": 57,
+                "perLot": true
+              },
+              {
+                "abbr": "FF",
+                "title": "FILING FEE",
+                "text": null,
+                "price": 37,
+                "perLot": true
+              },
+              {
+                "abbr": "OTHC",
+                "title": "Original Terminal Handling Charge",
+                "text": "This service covers the cost of handling a container at the origin port or terminal. This service is applicable to all shipments.",
+                "price": 0,
+                "perLot": true
+              },
+              {
+                "abbr": "SVAF",
+                "title": "SOLAS VGM ADMIN FEE",
+                "text": null,
+                "price": 20,
+                "perLot": true
+              }
+            ],
+            "portFeesTo": [
+              {
+                "abbr": "DC",
+                "title": "DESTINATION CHARGES",
+                "text": null,
+                "price": 738,
+                "perLot": false
+              },
+              {
+                "abbr": "DLC",
+                "title": "DESTINATION LOCAL CHARGE",
+                "text": null,
+                "price": 496,
+                "perLot": false
+              },
+              {
+                "abbr": "DOF",
+                "title": "DELIVERY ORDER FEE",
+                "text": null,
+                "price": 150,
+                "perLot": true
+              },
+              {
+                "abbr": "DTHC",
+                "title": "Destination Terminal Handling Charge",
+                "text": "This service covers the cost of the handling of a container at the destination port or terminal. This service is applicable to all shipments.",
+                "price": 196,
+                "perLot": false
+              },
+              {
+                "abbr": "LC",
+                "title": "LCL CHARGE",
+                "text": null,
+                "price": 528,
+                "perLot": false
+              }
+            ],
+            "truckFrom": {
+              "price": 107,
+              "distance": "2.36 km",
+              "transitTime": "1 day",
+              "interpolation": false
+            },
+            "truckTo": {
+              "price": 215,
+              "distance": "4.09 km",
+              "transitTime": "1 day",
+              "interpolation": false
+            }
+          }
+        }
+      ],
+      "default": {
+        "services": [
+          "ocean"
+        ]
+      }
+    }
+  }
+                                

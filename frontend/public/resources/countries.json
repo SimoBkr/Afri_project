@@ -1,0 +1,78 @@
+[
+  {
+    "placeId": "ChIJwcVQH4drpw0RawcIdO1GyXo",
+    "city": "Rabat",
+    "country": "Morocco",
+    "place_type": "locality",
+    "counrty_code": "ma",
+    "code": "ma",
+    "flag": "ma.png",
+    "seaPorts": {
+      "data": [{
+        "name": "Rabat Port Morocco",
+        "lat": 34.020882,
+        "long": -6.841650
+      }]
+    }
+  },
+  {
+    "placeId": "ChIJt7PV7ZZRDhMRSVtye-QRXCM",
+    "city": "Rabat",
+    "country": "Malta",
+    "place_type": "locality",
+    "counrty_code": "mt",
+    "code": "mt",
+    "flag": "mt.png",
+    "seaPorts": {
+      "data": [{
+        "name": "Rabat Port Malta",
+        "lat":  35.917973,
+        "long": 14.409943
+      }]
+    }  },
+  {
+    "placeId": "ChIJEc5pUCwVrxIR7FDrE1mqoYM",
+    "city": "Rabat-les-Trois-Seigneurs",
+    "country": "France",
+    "place_type": "locality",
+    "counrty_code": "fr",
+    "code": "fr",
+    "flag": "fr.png",
+    "seaPorts": {
+      "data": [{
+        "name": "RabatTrois Port France",
+        "lat": 48.864716,
+        "long": 2.349014
+      }]
+    }  },
+  {
+    "placeId": "ChIJgXZWjWL3a0cRg5q9UEIPE_w",
+    "city": "Rábatamási",
+    "country": "Hungary",
+    "place_type": "locality",
+    "counrty_code": "hu",
+    "code": "hu",
+    "flag": "hu.png",
+    "seaPorts": {
+      "data": [{
+        "name": "Rabatamasi Port Hungary",
+        "lat": 47.497913,
+        "long": 19.040236
+      }]
+    }  },
+  {
+    "placeId": "ChIJMYPYwPTqmjkROOM-uuMhIPs",
+    "city": "Rabatpur",
+    "country": "Uttar Pradesh, India",
+    "place_type": "locality",
+    "counrty_code": "null",
+    "code": "null",
+    "flag": "null.png",
+    "seaPorts": {
+      "data": [{
+        "name": "Rabatpur Port India Uttar",
+        "lat": 28.207609,
+        "long": 79.826660
+      }]
+    }  }
+]

@@ -1,0 +1,98 @@
+{
+  "info": {
+    "_postman_id": "1c1dd38a-e499-4f8a-9981-5f42e4a02baf",
+    "name": "searates",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "https://www.searates.com/search/google-geocode",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "input",
+              "value": "ChIJjcVRlmGICw0Rw_8sxIGT09k",
+              "type": "text"
+            },
+            {
+              "key": "type",
+              "value": "place_id",
+              "type": "text"
+            },
+            {
+              "key": "country_code",
+              "value": "MA",
+              "type": "text"
+            },
+            {
+              "key": "place_type",
+              "value": "country",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.searates.com/search/google-geocode",
+          "protocol": "https",
+          "host": [
+            "www",
+            "searates",
+            "com"
+          ],
+          "path": [
+            "search",
+            "google-geocode"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://www.searates.com/maritime/ports-map/",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "c",
+              "value": "MA",
+              "type": "text"
+            }
+          ],
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://www.searates.com/maritime/ports-map/",
+          "protocol": "https",
+          "host": [
+            "www",
+            "searates",
+            "com"
+          ],
+          "path": [
+            "maritime",
+            "ports-map",
+            ""
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

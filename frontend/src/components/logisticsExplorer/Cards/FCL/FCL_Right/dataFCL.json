@@ -1,0 +1,468 @@
+{
+    "data": {
+        "shipment": [
+            {
+                "shipmentId": "713780",
+                "transportationMode": "ocean",
+                "incoterms": null,
+                "currency": "USD",
+                "cityFrom": {
+                    "id": 10444,
+                    "name": "Casablanca",
+                    "code": "ChIJAdEYgrzSpw0RgDClN49E-cs",
+                    "countryCode": "MA",
+                    "lat": 33.578500865535815,
+                    "lng": -7.624511995954908
+                },
+                "cityTo": {
+                    "id": 22712,
+                    "name": "Tangier",
+                    "code": "ChIJaz-77aSACw0RnA5GRzJSfEY",
+                    "countryCode": "MA",
+                    "lat": 35.764076022575274,
+                    "lng": -5.798034461415696
+                },
+                "portFrom": {
+                    "id": 22712,
+                    "name": "Tangier",
+                    "code": "MATNG",
+                    "countryCode": "MA",
+                    "lat": 35.764076022575274,
+                    "lng": -5.798034461415696
+                },
+                "portTo": {
+                    "id": 3123,
+                    "name": "Algeciras",
+                    "code": "ESALG",
+                    "countryCode": "ES",
+                    "lat": 36.1410956345708,
+                    "lng": -5.438139841216676
+                },
+                "freight": [
+                    {
+                        "shippingLine": "HLCU",
+                        "logo": "https://www.searates.com/design/images/freight/sealine_cort/7.jpg",
+                        "containerCode": "ST20",
+                        "validTo": "2021-06-03",
+                        "containerType": "20 Standard",
+                        "quantity": 1,
+                        "linerTerms": null,
+                        "originalPrice": 402,
+                        "originalCurrency": "USD",
+                        "price": 402,
+                        "distance": "58.19 km",
+                        "transitTime": "2 days",
+                        "transportFrom": null,
+                        "transportTo": null,
+                        "alternative": true,
+                        "portFeesFrom": [
+                            {
+                                "abbr": "HDL",
+                                "title": "Lift On Lift Off Service",
+                                "text": "A service provided by the carrier in which the container is lifted on or off the trailer/chassis at the port or at the carriers controlled storage yard. This then allows our customers to perform their own container haulage. \n\nThis service is applicable based upon the customer's request and dependent on the carrier's operational feasibility to perform the service.",
+                                "originalPrice": 30,
+                                "originalCurrency": "USD",
+                                "price": 30,
+                                "perLot": false
+                            }
+                        ],
+                        "portFeesTo": [
+                            {
+                                "abbr": "DDF",
+                                "title": "Documentation Fee - Destination",
+                                "text": "This service covers the creation and processing of all standard transport documents (Delivery Order).",
+                                "originalPrice": 50,
+                                "originalCurrency": "EUR",
+                                "price": 61,
+                                "perLot": true
+                            },
+                            {
+                                "abbr": "DTHC",
+                                "title": "Destination Terminal Handling Charge",
+                                "text": "This service covers the cost of the handling of a container at the destination port or terminal. This service is applicable to all shipments.",
+                                "originalPrice": 230,
+                                "originalCurrency": "EUR",
+                                "price": 280,
+                                "perLot": false
+                            },
+                            {
+                                "abbr": "PA/PDI",
+                                "title": "Port Additionals / Port Dues Import",
+                                "text": null,
+                                "originalPrice": 35,
+                                "originalCurrency": "EUR",
+                                "price": 43,
+                                "perLot": false
+                            }
+                        ],
+                        "truckFrom": {
+                            "originalPrice": 1721,
+                            "originalCurrency": "MAD",
+                            "price": 196,
+                            "distance": "310.75 km",
+                            "transitTime": "1 day",
+                            "interpolation": true
+                        },
+                        "truckTo": {
+                            "originalPrice": 165,
+                            "originalCurrency": "USD",
+                            "price": 165,
+                            "distance": "52.86 km",
+                            "transitTime": "1 day",
+                            "interpolation": true
+                        },
+                        "railFrom": {
+                            "originalPrice": null,
+                            "originalCurrency": null,
+                            "price": 0,
+                            "distance": "310.75 km",
+                            "transitTime": "0",
+                            "interpolation": false
+                        },
+                        "railTo": {
+                            "originalPrice": null,
+                            "originalCurrency": null,
+                            "price": 0,
+                            "distance": "52.98 km",
+                            "transitTime": "0",
+                            "interpolation": false
+                        },
+                        "dryFrom": null,
+                        "dryTo": null,
+                        "bargeFrom": {
+                            "price": null,
+                            "distance": null,
+                            "transitTime": null,
+                            "validTo": null,
+                            "currency": null,
+                            "port": {
+                                "id": null,
+                                "name": null,
+                                "code": null,
+                                "countryCode": null,
+                                "lat": null,
+                                "lng": null
+                            }
+                        },
+                        "bargeTo": {
+                            "price": null,
+                            "distance": null,
+                            "transitTime": null,
+                            "validTo": null,
+                            "currency": null,
+                            "port": {
+                                "id": null,
+                                "name": null,
+                                "code": null,
+                                "countryCode": null,
+                                "lat": null,
+                                "lng": null
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "shipmentId": "713781",
+                "transportationMode": "ocean",
+                "incoterms": null,
+                "currency": "USD",
+                "cityFrom": {
+                    "id": 10444,
+                    "name": "Casablanca",
+                    "code": "ChIJAdEYgrzSpw0RgDClN49E-cs",
+                    "countryCode": "MA",
+                    "lat": 33.578500865535815,
+                    "lng": -7.624511995954908
+                },
+                "cityTo": {
+                    "id": 22712,
+                    "name": "Tangier",
+                    "code": "ChIJaz-77aSACw0RnA5GRzJSfEY",
+                    "countryCode": "MA",
+                    "lat": 35.764076022575274,
+                    "lng": -5.798034461415696
+                },
+                "portFrom": {
+                    "id": 10444,
+                    "name": "Casablanca",
+                    "code": "MACAS",
+                    "countryCode": "MA",
+                    "lat": 33.578500865535815,
+                    "lng": -7.624511995954908
+                },
+                "portTo": {
+                    "id": 3123,
+                    "name": "Algeciras",
+                    "code": "ESALG",
+                    "countryCode": "ES",
+                    "lat": 36.1410956345708,
+                    "lng": -5.438139841216676
+                },
+                "freight": [
+                    {
+                        "shippingLine": "HLCU",
+                        "logo": "https://www.searates.com/design/images/freight/sealine_cort/7.jpg",
+                        "containerCode": "ST20",
+                        "validTo": "2021-06-30",
+                        "containerType": "20 Standard",
+                        "quantity": 1,
+                        "linerTerms": null,
+                        "originalPrice": 242,
+                        "originalCurrency": "USD",
+                        "price": 242,
+                        "distance": "352.52 km",
+                        "transitTime": "3 days",
+                        "transportFrom": null,
+                        "transportTo": null,
+                        "alternative": true,
+                        "portFeesFrom": [
+                            {
+                                "abbr": "HL-LOLOO",
+                                "title": "Lift on/Lift Off Origin",
+                                "text": null,
+                                "originalPrice": 10,
+                                "originalCurrency": "USD",
+                                "price": 10,
+                                "perLot": false
+                            }
+                        ],
+                        "portFeesTo": [
+                            {
+                                "abbr": "DDF",
+                                "title": "Documentation Fee - Destination",
+                                "text": "This service covers the creation and processing of all standard transport documents (Delivery Order).",
+                                "originalPrice": 50,
+                                "originalCurrency": "EUR",
+                                "price": 61,
+                                "perLot": true
+                            },
+                            {
+                                "abbr": "DTHC",
+                                "title": "Destination Terminal Handling Charge",
+                                "text": "This service covers the cost of the handling of a container at the destination port or terminal. This service is applicable to all shipments.",
+                                "originalPrice": 230,
+                                "originalCurrency": "EUR",
+                                "price": 280,
+                                "perLot": false
+                            },
+                            {
+                                "abbr": "PA/PDI",
+                                "title": "Port Additionals / Port Dues Import",
+                                "text": null,
+                                "originalPrice": 35,
+                                "originalCurrency": "EUR",
+                                "price": 43,
+                                "perLot": false
+                            }
+                        ],
+                        "truckFrom": {
+                            "originalPrice": 165,
+                            "originalCurrency": "USD",
+                            "price": 165,
+                            "distance": "0.01 km",
+                            "transitTime": "1 day",
+                            "interpolation": true
+                        },
+                        "truckTo": {
+                            "originalPrice": 165,
+                            "originalCurrency": "USD",
+                            "price": 165,
+                            "distance": "52.86 km",
+                            "transitTime": "1 day",
+                            "interpolation": true
+                        },
+                        "railFrom": {
+                            "originalPrice": null,
+                            "originalCurrency": null,
+                            "price": 0,
+                            "distance": "0 km",
+                            "transitTime": "0",
+                            "interpolation": false
+                        },
+                        "railTo": {
+                            "originalPrice": null,
+                            "originalCurrency": null,
+                            "price": 0,
+                            "distance": "52.98 km",
+                            "transitTime": "0",
+                            "interpolation": false
+                        },
+                        "dryFrom": null,
+                        "dryTo": null,
+                        "bargeFrom": {
+                            "price": null,
+                            "distance": null,
+                            "transitTime": null,
+                            "validTo": null,
+                            "currency": null,
+                            "port": {
+                                "id": null,
+                                "name": null,
+                                "code": null,
+                                "countryCode": null,
+                                "lat": null,
+                                "lng": null
+                            }
+                        },
+                        "bargeTo": {
+                            "price": null,
+                            "distance": null,
+                            "transitTime": null,
+                            "validTo": null,
+                            "currency": null,
+                            "port": {
+                                "id": null,
+                                "name": null,
+                                "code": null,
+                                "countryCode": null,
+                                "lat": null,
+                                "lng": null
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "shipmentId": "713782",
+                "transportationMode": "ocean",
+                "incoterms": null,
+                "currency": "USD",
+                "cityFrom": {
+                    "id": 10444,
+                    "name": "Casablanca",
+                    "code": "ChIJAdEYgrzSpw0RgDClN49E-cs",
+                    "countryCode": "MA",
+                    "lat": 33.578500865535815,
+                    "lng": -7.624511995954908
+                },
+                "cityTo": {
+                    "id": 22712,
+                    "name": "Tangier",
+                    "code": "ChIJaz-77aSACw0RnA5GRzJSfEY",
+                    "countryCode": "MA",
+                    "lat": 35.764076022575274,
+                    "lng": -5.798034461415696
+                },
+                "portFrom": {
+                    "id": 3123,
+                    "name": "Algeciras",
+                    "code": "ESALG",
+                    "countryCode": "ES",
+                    "lat": 36.1410956345708,
+                    "lng": -5.438139841216676
+                },
+                "portTo": {
+                    "id": 22712,
+                    "name": "Tangier",
+                    "code": "MATNG",
+                    "countryCode": "MA",
+                    "lat": 35.764076022575274,
+                    "lng": -5.798034461415696
+                },
+                "freight": [
+                    {
+                        "shippingLine": "HLCU",
+                        "logo": "https://www.searates.com/design/images/freight/sealine_cort/7.jpg",
+                        "containerCode": "ST20",
+                        "validTo": "2021-06-30",
+                        "containerType": "20 Standard",
+                        "quantity": 1,
+                        "linerTerms": null,
+                        "originalPrice": 748,
+                        "originalCurrency": "USD",
+                        "price": 748,
+                        "distance": "58.19 km",
+                        "transitTime": "3 days",
+                        "transportFrom": null,
+                        "transportTo": null,
+                        "alternative": true,
+                        "portFeesFrom": [
+                            {
+                                "abbr": "HL-THCO",
+                                "title": "Terminal Handling Charge Orig.",
+                                "text": null,
+                                "originalPrice": 283,
+                                "originalCurrency": "USD",
+                                "price": 283,
+                                "perLot": false
+                            }
+                        ],
+                        "portFeesTo": [],
+                        "truckFrom": {
+                            "originalPrice": 1924,
+                            "originalCurrency": "MAD",
+                            "price": 219,
+                            "distance": "347.82 km",
+                            "transitTime": "1 day",
+                            "interpolation": true
+                        },
+                        "truckTo": {
+                            "originalPrice": 165,
+                            "originalCurrency": "USD",
+                            "price": 165,
+                            "distance": "0.38 km",
+                            "transitTime": "1 day",
+                            "interpolation": true
+                        },
+                        "railFrom": {
+                            "originalPrice": null,
+                            "originalCurrency": null,
+                            "price": 0,
+                            "distance": "347.81 km",
+                            "transitTime": "0",
+                            "interpolation": false
+                        },
+                        "railTo": {
+                            "originalPrice": null,
+                            "originalCurrency": null,
+                            "price": 0,
+                            "distance": "0 km",
+                            "transitTime": "0",
+                            "interpolation": false
+                        },
+                        "dryFrom": null,
+                        "dryTo": null,
+                        "bargeFrom": {
+                            "price": null,
+                            "distance": null,
+                            "transitTime": null,
+                            "validTo": null,
+                            "currency": null,
+                            "port": {
+                                "id": null,
+                                "name": null,
+                                "code": null,
+                                "countryCode": null,
+                                "lat": null,
+                                "lng": null
+                            }
+                        },
+                        "bargeTo": {
+                            "price": null,
+                            "distance": null,
+                            "transitTime": null,
+                            "validTo": null,
+                            "currency": null,
+                            "port": {
+                                "id": null,
+                                "name": null,
+                                "code": null,
+                                "countryCode": null,
+                                "lat": null,
+                                "lng": null
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "default": {
+            "services": [
+                "ocean"
+            ],
+            "bookingViaEmail": false
+        },
+        "identity": null
+    }
+}

@@ -1,0 +1,289 @@
+{
+    "response": {
+        "status": "SUCCESS",
+        "routes": [
+            {
+                "transShipments": [
+                    {
+                        "type": 3,
+                        "vesselName": null,
+                        "vesselCode": null,
+                        "voyage": null,
+                        "departure": {
+                            "date": 1627693260,
+                            "portName": "Odessa",
+                            "portUnloCode": "UAODS",
+                            "terminal": null
+                        },
+                        "arrival": {
+                            "date": 1627776060,
+                            "portName": "Pivdennyi",
+                            "portUnloCode": "UAYUZ",
+                            "terminal": "TIS"
+                        },
+                        "service": null
+                    },
+                    {
+                        "type": 1,
+                        "vesselName": "SAFMARINE NOMAZWE",
+                        "vesselCode": "4G5",
+                        "voyage": "131W",
+                        "departure": {
+                            "date": 1627840800,
+                            "portName": "Pivdennyi",
+                            "portUnloCode": "UAYUZ",
+                            "terminal": "TIS"
+                        },
+                        "arrival": {
+                            "date": 1628427600,
+                            "portName": "Ambarli Port Istanbul",
+                            "portUnloCode": "TRAMR",
+                            "terminal": "Marport Terminal - Ambarli"
+                        },
+                        "service": "ECUMED"
+                    },
+                    {
+                        "type": 3,
+                        "vesselName": null,
+                        "vesselCode": null,
+                        "voyage": null,
+                        "departure": {
+                            "date": 1628766000,
+                            "portName": "Ambarli Port Istanbul",
+                            "portUnloCode": "TRAMR",
+                            "terminal": "Marport Terminal - Ambarli"
+                        },
+                        "arrival": {
+                            "date": 1628769600,
+                            "portName": "Ambarli Port Istanbul",
+                            "portUnloCode": "TRAMR",
+                            "terminal": "Kumport Terminal - Ambarli"
+                        },
+                        "service": null
+                    },
+                    {
+                        "type": 1,
+                        "vesselName": "COSCO VIETNAM",
+                        "vesselCode": "T7E",
+                        "voyage": "132N",
+                        "departure": {
+                            "date": 1629316800,
+                            "portName": "Ambarli Port Istanbul",
+                            "portUnloCode": "TRAMR",
+                            "terminal": "Kumport Terminal - Ambarli"
+                        },
+                        "arrival": {
+                            "date": 1630864800,
+                            "portName": "Bremerhaven",
+                            "portUnloCode": "DEBRV",
+                            "terminal": "NTB North Sea Terminal Bremerhaven"
+                        },
+                        "service": "AEGEAN SEA"
+                    },
+                    {
+                        "type": 1,
+                        "vesselName": "MERETE MAERSK",
+                        "vesselCode": "1QM",
+                        "voyage": "130W",
+                        "departure": {
+                            "date": 1631667600,
+                            "portName": "Bremerhaven",
+                            "portUnloCode": "DEBRV",
+                            "terminal": "NTB North Sea Terminal Bremerhaven"
+                        },
+                        "arrival": {
+                            "date": 1631944800,
+                            "portName": "Aarhus",
+                            "portUnloCode": "DKAAR",
+                            "terminal": "Aarhus APM Terminal"
+                        },
+                        "service": "AE5"
+                    },
+                    {
+                        "type": 3,
+                        "vesselName": null,
+                        "vesselCode": null,
+                        "voyage": null,
+                        "departure": {
+                            "date": 1632117600,
+                            "portName": "Aarhus",
+                            "portUnloCode": "DKAAR",
+                            "terminal": "Aarhus APM Terminal"
+                        },
+                        "arrival": {
+                            "date": 1632463200,
+                            "portName": "Taulov",
+                            "portUnloCode": "DKTLV",
+                            "terminal": "Taulov Kombi Terminal"
+                        },
+                        "service": null
+                    },
+                    {
+                        "type": 3,
+                        "vesselName": null,
+                        "vesselCode": null,
+                        "voyage": null,
+                        "departure": {
+                            "date": 1632463200,
+                            "portName": "Taulov",
+                            "portUnloCode": "DKTLV",
+                            "terminal": "Taulov Kombi Terminal"
+                        },
+                        "arrival": {
+                            "date": 1632470400,
+                            "portName": "Odense",
+                            "portUnloCode": "DKODE",
+                            "terminal": null
+                        },
+                        "service": null
+                    }
+                ],
+                "cutOff": 1627520460,
+                "transitTime": 54,
+                "originPlaceId": "ChIJQ0yGC4oxxkARbBfyjOKPnxI",
+                "destinationPlaceId": null
+            },
+            {
+                "transShipments": [
+                    {
+                        "type": 3,
+                        "vesselName": null,
+                        "vesselCode": null,
+                        "voyage": null,
+                        "departure": {
+                            "date": 1628506800,
+                            "portName": "Odessa",
+                            "portUnloCode": "UAODS",
+                            "terminal": null
+                        },
+                        "arrival": {
+                            "date": 1628589600,
+                            "portName": "Pivdennyi",
+                            "portUnloCode": "UAYUZ",
+                            "terminal": "TIS"
+                        },
+                        "service": null
+                    },
+                    {
+                        "type": 1,
+                        "vesselName": "MAERSK LAUNCESTON",
+                        "vesselCode": "B11",
+                        "voyage": "132W",
+                        "departure": {
+                            "date": 1628665200,
+                            "portName": "Pivdennyi",
+                            "portUnloCode": "UAYUZ",
+                            "terminal": "TIS"
+                        },
+                        "arrival": {
+                            "date": 1629032400,
+                            "portName": "Ambarli Port Istanbul",
+                            "portUnloCode": "TRAMR",
+                            "terminal": "Marport Terminal - Ambarli"
+                        },
+                        "service": "ECUMED"
+                    },
+                    {
+                        "type": 3,
+                        "vesselName": null,
+                        "vesselCode": null,
+                        "voyage": null,
+                        "departure": {
+                            "date": 1629370800,
+                            "portName": "Ambarli Port Istanbul",
+                            "portUnloCode": "TRAMR",
+                            "terminal": "Marport Terminal - Ambarli"
+                        },
+                        "arrival": {
+                            "date": 1629374400,
+                            "portName": "Ambarli Port Istanbul",
+                            "portUnloCode": "TRAMR",
+                            "terminal": "Kumport Terminal - Ambarli"
+                        },
+                        "service": null
+                    },
+                    {
+                        "type": 1,
+                        "vesselName": "FRANKFURT EXPRESS",
+                        "vesselCode": "V1I",
+                        "voyage": "133N",
+                        "departure": {
+                            "date": 1629921600,
+                            "portName": "Ambarli Port Istanbul",
+                            "portUnloCode": "TRAMR",
+                            "terminal": "Kumport Terminal - Ambarli"
+                        },
+                        "arrival": {
+                            "date": 1631469600,
+                            "portName": "Bremerhaven",
+                            "portUnloCode": "DEBRV",
+                            "terminal": "NTB North Sea Terminal Bremerhaven"
+                        },
+                        "service": "AEGEAN SEA"
+                    },
+                    {
+                        "type": 1,
+                        "vesselName": "MADRID MAERSK",
+                        "vesselCode": "Y24",
+                        "voyage": "131W",
+                        "departure": {
+                            "date": 1631829600,
+                            "portName": "Bremerhaven",
+                            "portUnloCode": "DEBRV",
+                            "terminal": "NTB North Sea Terminal Bremerhaven"
+                        },
+                        "arrival": {
+                            "date": 1632290400,
+                            "portName": "Aarhus",
+                            "portUnloCode": "DKAAR",
+                            "terminal": "Aarhus APM Terminal"
+                        },
+                        "service": "AE5"
+                    },
+                    {
+                        "type": 3,
+                        "vesselName": null,
+                        "vesselCode": null,
+                        "voyage": null,
+                        "departure": {
+                            "date": 1632463200,
+                            "portName": "Aarhus",
+                            "portUnloCode": "DKAAR",
+                            "terminal": "Aarhus APM Terminal"
+                        },
+                        "arrival": {
+                            "date": 1632808800,
+                            "portName": "Taulov",
+                            "portUnloCode": "DKTLV",
+                            "terminal": "Taulov Kombi Terminal"
+                        },
+                        "service": null
+                    },
+                    {
+                        "type": 3,
+                        "vesselName": null,
+                        "vesselCode": null,
+                        "voyage": null,
+                        "departure": {
+                            "date": 1632808800,
+                            "portName": "Taulov",
+                            "portUnloCode": "DKTLV",
+                            "terminal": "Taulov Kombi Terminal"
+                        },
+                        "arrival": {
+                            "date": 1632816000,
+                            "portName": "Odense",
+                            "portUnloCode": "DKODE",
+                            "terminal": null
+                        },
+                        "service": null
+                    }
+                ],
+                "cutOff": 1628334000,
+                "transitTime": 48,
+                "originPlaceId": "ChIJQ0yGC4oxxkARbBfyjOKPnxI",
+                "destinationPlaceId": null
+            }
+        ]
+    }
+}

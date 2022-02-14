@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* Title - Image Ship Schedules */
+
+.ship-schedules-image {
+  width: 90%;
+  height: 250px;
+  border-radius: calc(.25rem - -5px); 
+  filter: invert(60%) sepia(38%) saturate(4263%) hue-rotate(152deg) brightness(100%) contrast(101%);
+}
+
+.ship_schedules_text {
+  position: relative;
+  margin: 80px 0px 0px 30px;
+  font-family: 'TitilliumWeb',sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.icon_ship_schedules {
+  position: relative;
+  margin: 80px 0px 0px 35px;
+  filter: brightness(0) invert(1);
+}
+
+.shipping_text_title {
+  width: 298px;
+  height: 50px;
+  margin: 70px 0px -106px -20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2265d9;
+}
+
+/* Filter Ship Schedules */
+.filter_ship_schedules {
+    transform: scale(0.8);
+}
+
+.filter_ship_row {
+  margin-top:40px;
+  margin-left: -133px;
+  position: relative;
+}
+
+.countryfilter_ship_schedules {
+  height: 75px;
+  width: 613px;
+  padding: 20px 10px;
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+  list-style: none;
+}
+
+.date_ship_schedules {
+  list-style: none;
+}
+
+.image_left_world_ship_schedules {
+  margin-left: 12px;
+}
+
+li > .image_left_world_ship_schedules {
+  margin-left: 12px;
+  border-radius: 0px #fff;
+}
+
+.date_ship {
+  height: 75px;
+  width: 230px;
+  padding: 20px 10px;
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+
+.date_ship .date_ship_li {
+  list-style: none;
+  text-align: center;
+  display: block;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.date_ship .date_ship_li:last-child {
+  border-right: none;
+}
+
+.date_ship .date_ship_li a {
+  text-decoration: none;
+  padding: 0 33px;
+  display: block;
+}
+
+.date_ship .date_ship_li a:hover {
+  text-decoration: none;
+}
+
+.weeks_ul {
+  height: 75px;
+  width: 280px;
+  padding: 20px 0;
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+  
+.weeks_ul .weeks_li {
+  list-style: none;
+  text-align: center;
+  display: block;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+  
+.weeks_ul .weeks_li:last-child {
+  border-right: none;
+}
+  
+.select_field_weeks {
+  width: 260px;
+}
+
+.distance_right {
+  margin-right: 15px;
+}
+
+/* Search Services */
+
+.search_services {
+  width: 75px;
+}
+
+.button_search_services_ship {
+  background-color: #fff;
+  height: 75px;
+  width: 60px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3); 
+}
+  
+.button_search_services_ship:focus {
+  outline: none;
+}
+
+.search_ship {
+  width: 0px;
+}
+
+.button_search_ship_schedules {
+  background-color: #fec537;
+  height: 75px;
+  width: 116px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);  
+  margin-left: -13px;
+}
+  
+.button_search_ship_schedules:focus {
+  outline: none;
+}
+
+#service_svg {
+  width: 40px;
+  height: 40px;
+  margin: 20px 0px 0px 10px;
+}
+
+/* ***************** */
+
+.shipping_lines_div {
+  position: absolute;
+  width: 732px;
+  height: 370px;
+  margin-top: 80px;
+  margin-left: -629px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);  
+  padding: 50px;
+}
+
+.View_Sort_Planned_Calls {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 16px;
+  line-height: 18px;
+}
+
+.style_planned_calls {
+  padding-bottom: 12px;
+}
+
+.Space_PlannedCalls_And_Alternative_Options {
+  padding-bottom: 140px;
+}
+
+/* Shipping Lines Result Body */ 
+
+.shipping_lines_result {
+  display: flex;
+}
+
+.ship_schedules_result {
+  margin-top: 20px;
+}
+
+/* Menu Shipping Left */
+
+.Menu_Ship_Left {
+  margin-left: -25px;
+}
+
+.Title_Services_Left {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hr_shipping_lines_left {
+  width: 280px;
+  height: 0px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  background-color: gray;
+  opacity: 0.1;
+}
+
+.slider_departure {
+  width: 280px;
+  margin-left: 28px;
+}
+
+.first_date {
+  margin-left: 66px;
+  margin-top: 5px;
+  width: 80px;
+  color: #0139FF;
+  background-color: #F1F2FE;
+}
+
+.last_date {
+  margin-right: 76px;
+  margin-top: 5px;
+  width: 86px;
+  color: #0139FF;
+  background-color: #F1F2FE;
+}
+
+.submenu_slider {
+  padding: 1px;
+  margin-bottom: 10px;
+}
+
+.sub1_checkbox_direct {
+  margin: 25px;
+}
+
+.checkbox_sub1 {
+  margin-top: -7px;
+  margin-left: -22px;
+}
+
+.week_text {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.transit_time_text {
+  color: rgba(0, 0, 0, 0.65);
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.Transit_Time_days_style {
+  font-size: 13px;
+  color: #0139FF;
+}
+
+.Resultats_23 {
+  color: #9EA9B9;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.Week_30 {
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+  padding: 13px;
+  border-radius: 5px;
+  width: 730px;
+  cursor: pointer;
+}
+
+.icon_chevron {
+  margin-left: 11px;
+}
+
+.chevron_size_color {
+  color: #0139FF;
+  font-size: 12px;
+}
+
+/* Result Ship Schedules */ 
+.root_result_ship_schedules {
+  width: 730px;
+  margin-top: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3); 
+  padding: 10px;
+}
+
+.logo_and_shipping_line {
+  padding: 10px;
+  display: flex;
+}
+
+.logo_ship_schedules {
+  position: relative;
+  height : 30px;
+  width: 33px;
+  border-radius: 30px;
+}
+
+.shipping_line_text_in_result {
+  margin: 3px 0px 0px 14px;
+  font-weight: 600;
+  color: #15354E;
+  font-size: 15px;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.hr_horizontal {
+  width: 550px;
+  height: 1px;
+  opacity: 0.05;
+  background-color: #9EA9B9;
+  margin: 5px 0px 10px -10px;
+}
+
+.hr_vertical {
+  transform: rotate(90deg);
+  width: 157px;
+  height: 1px;
+  opacity: 0.05;
+  background-color: #9EA9B9;
+  margin: 0px 0px 0px 463px;
+}
+
+.date_place_texts {
+  margin-bottom: 20px;
+}
+
+.date_text {
+  font-weight: bold;
+  font-size: 14px;
+  color: #15354E !important;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.place_text {
+  font-size: 10px;
+  color: #15354E !important;
+  line-height: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: Montserrat, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+
+.transit_text {
+  color: #15354E;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* Line Ship Schedules */ 
+
+.line_ship_schedules {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 4px 4px 4px 0px;
+}
+
+.line_point_land {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.line_point_land .point_text {
+  margin-left: 16px;
+  position: absolute;
+  color: #9EA9B9;
+  padding-bottom: 4px;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  top: -19px;
+  font-size: 12px;
+}
+
+.line_point_land .point_icon {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border-color: #9EA9B9;
+  border: solid 2px #9EA9B9;
+  border-radius: 50%;
+}
+
+.line_way_land {
+  background-color: #9EA9B9;
+  height: 1px;
+  margin: 0 5px;
+  flex-grow: 0.04;
+}
+
+.line_point_sea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.line_point_sea .point_text {
+  margin-left: 16px;
+  position: absolute;
+  color: #0139FF;
+  padding-bottom: 4px;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  top: -19px;
+  font-size: 12px;
+}
+
+.line_point_sea .point_icon {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border-color: #0139FF;
+  border: solid 2px #0139FF;
+  border-radius: 50%;
+}
+
+.line_way_sea {
+  background-color: #0139FF;
+  height: 1px;
+  margin: 0 5px;
+  flex-grow: 0.06;
+}
+
+/* Show Detail Chevron Icon */
+
+.voir_detail_icon_chevron {
+  position: absolute;
+  margin: 0px 0px 120px 675px;
+}
+
+.root_detail {
+  width: 730px;
+  background-color: #ffffff;
+  padding: 0px 8px;
+  box-shadow: rgba(0, 0, 0, 0.65);
+}
+
+.route_details {
+  background-color: #F5F6FF;
+  align-items: center;
+  padding: 6px 12px;
+  margin-bottom: 15px;
+  color: #0139FF;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.ship_schedules_details {
+  padding: 4px 8px;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.transshipment_detail {
+  padding: 6px 0px;
+  margin-bottom: 15px;
+  color: #0139FF;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.ship_detail_left {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 16px;
+}
+
+.ship_detail_right {
+  color: #9EA9B9;
+  text-align: right;
+}
+
+.ship_detail_right_normal {
+  text-align: right;
+}
+
+.ship_detail_right_blue {
+  color: #0139FF;
+  text-align: right;
+}
+
+.hr_between_details {
+  width: 700px;
+  color: #9EA9B9;
+  background-color: #9EA9B9;
+  opacity: 0.2;
+  height: 0px;
+}
+
+/* Responsive Page */
+
+@media only screen and (max-width: 850px) {
+    .ship-schedules-image {
+        width: 41%;
+    }
+
+    .filter_ship_row {
+        margin-top:40px;
+        margin-left: -55px;
+        position: relative;
+    }
+
+    .weeks_ul {
+        width: 368px;
+    }
+
+    .select_field_weeks {
+        width: 340px;
+    }
+
+    #service_svg {
+        width: 40px;
+        height: 40px;
+        margin: 20px 0px 0px 90px;
+    }
+
+    .button_search_services_ship {
+        width: 230px; 
+    }
+
+    .button_search_ship_schedules {
+        width: 370px;
+        margin-left: 155px;
+    }
+
+    .shipping_lines_result {
+      display: block;
+    }
+
+}

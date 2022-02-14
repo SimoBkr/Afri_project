@@ -1,0 +1,53 @@
+server:
+  servlet:
+    context-path: /api
+  port: ${PORT:9000}
+
+  graphql:
+    client:
+      url: https://www.searates.com/graphql_rates
+
+spring:
+  application:
+    name: searates-apis-client
+  profiles:
+    include: searates
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://digital.peaqock.com:13307/searatesdevnew?createDatabaseIfNotExist=true&useSSL=false
+    username: mysqladmin
+    password: 'Pa32w@rd'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: medbkr.sb@gmail.com
+    password: physiquebac2015
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
+
+google:
+  map:
+    api-key: AIzaSyDbhuMsuNAHmEe979hVbq5mNyIdZJjijJ4
+
+logging.level.com.peaqock.clients.SearatesClientService: DEBUG
+
+auth:
+  jwt:
+    key-store: file:keys/jwt.jks
+    key-alias: jwt
+    key-password: password
+    issuer: issuer
+
+

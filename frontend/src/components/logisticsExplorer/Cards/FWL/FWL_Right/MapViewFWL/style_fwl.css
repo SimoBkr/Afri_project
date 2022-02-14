@@ -1,0 +1,25 @@
+.leaflet-container {
+  height: 300px;
+  width: 105%;
+}
+
+.leaflet-routing-alt {
+    display: none;
+}
+
+path.leaflet-interactive.animate {
+  stroke-dasharray: 1920;
+  stroke-dashoffset: 1920;
+  animation: dash 20s linear 3s forwards;
+}
+
+@keyframes dash {
+  to {
+      stroke-dashoffset: 0;
+  }
+}
+
+
+.style_margin_map {
+  margin-left: -39px;
+}
